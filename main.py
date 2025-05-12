@@ -21,20 +21,20 @@ if answer == 'да':
 
     # Разделитель
     print('-' * 15)
-    
+
     print(f'Общая сумма ЛИЧНОГО плана: {personal_plan} руб.')
-    
+
     # Разделитель
     print('-' * 15)
-    
+
     personal_tramp_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по батутам: '))
     personal_hb_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по дням рождения: '))
     personal_parkour_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по паркуру: '))
     personal_fact = personal_tramp_fact + personal_parkour_fact + personal_hb_fact
-    
+
     # Разделитель
     print('-' * 15)
-    
+
     print(f'Фактическая сумма личных продаж: {personal_fact} руб.')
 
     personal_data_entered = True
@@ -55,12 +55,12 @@ if answer == 'да':
 
     # Разделитель
     print('-' * 15)
-    
+
     print(f'Общая сумма ОБЩЕГО плана: {all_plan} руб.')
-    
+
     # Разделитель
     print('-' * 15)
-    
+
     all_tramp_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по батутам (отдел): '))
     all_hb_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по дням рождения (отдел): '))
     all_parkour_fact = int(input('Введите ФАКТИЧЕСКУЮ сумму продаж по паркуру (отдел): '))
@@ -68,7 +68,7 @@ if answer == 'да':
 
     # Разделитель
     print('-' * 15)
-    
+
     print(f'Фактическая сумма общих продаж: {all_fact} руб.')
 
     all_data_entered = True
@@ -104,11 +104,11 @@ if all_data_entered:
     if 70 <= plan_percent < 80:
         group_bonus = 670
     elif 80 <= plan_percent < 100:
-        group_bonus = 1_670
+        group_bonus = 1670
     elif 100 <= plan_percent <= 110:
-        group_bonus = 3_500
+        group_bonus = 3500
     elif plan_percent > 110:
-        group_bonus = 6_000
+        group_bonus = 6000
     print(f'Премия за выполнение общего плана отдела: {group_bonus} руб.')
 
 #Итоговая зарплата
