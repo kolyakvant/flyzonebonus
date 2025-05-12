@@ -1,7 +1,7 @@
 #Основные фиксированные показатели
-kpi_bonus = 10_000
-kpi_ideal_dialogs = 3_000
-work_shift_cost = 1_000
+kpi_bonus = 10000
+kpi_ideal_dialogs = 3000
+work_shift_cost = 1000
 
 #Ввод смен
 work_shift_quantity = int(input('Введите количество рабочих смен в месяц: '))
